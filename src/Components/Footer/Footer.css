@@ -1,0 +1,40 @@
+.Footer footer{
+    display: flex;
+    align-items: flex-start;   
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 25px;
+    margin: 35px 0 0 0;
+}
+.Footers{
+    width: 300px;
+    margin: 25px 0;
+}
+.Footer{
+    background: #33383C;
+}
+
+.Footer p{
+    color: #878F99;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.Footer h6{
+    color: #FFFFFF;
+}
+.Footer p:hover{
+    transition: all 0.5s;
+    margin-left: 4px;
+}
+.footerBody{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 55px;
+}
+.footerBody h6:nth-child(1){
+    color: #05F3B3;
+}
+.footerBody h6{
+    color: #66717A;
+}

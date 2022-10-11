@@ -1,0 +1,255 @@
+::-webkit-scrollbar{
+    display: none !important;
+}
+body {
+    background: white !important;
+}
+
+.headernav {
+    margin-left: -0rem;
+}
+
+.SingleCardNav {
+    margin: 40px 15px;
+    color: #787993;
+}
+
+.CardSection {
+    margin-left: 5vw;
+}
+
+.SingleCardTitle {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 41px;
+    color: #414D6A;
+}
+
+.SingleCardImage {
+    width: 400px;
+}
+
+.SingleCardImgDiv div {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.SingleCardImgDiv {
+    margin: 0 125px 0 0;
+}
+
+.ImgAndAboutCard {
+    display: flex;
+    padding: 0 10px;
+}
+
+.SingleArktikul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50vw;
+    font-family: sans-serif;
+    color: #414D6A;
+    margin: 15px 0;
+}
+
+.SummPriceSingleCard h1 {
+    font-family: sans-serif;
+    letter-spacing: 5px;
+}
+
+.TashkentYunusobod {
+    text-decoration: underline;
+    color: #4E72CA;
+    margin: 25px 0;
+    font-family: sans-serif;
+}
+
+.ButonsSingleButton {
+    display: flex;
+    align-items: center;
+    height: 37px;
+    width: 331px;
+    border-radius: 18.5px;
+    background: #65E99F;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 0 25px;
+    margin: 15px 0;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.ButonsSingleButton p {
+    background: #41D481;
+    border-radius: 18.5px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    padding: 0 5px;
+    margin-top: 1rem;
+}
+
+.Avtor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20vw;
+    font-family: sans-serif;
+    margin: 35px 0;
+}
+
+.Avtor span {
+    color: #2AAE63;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.ButtonsBlue {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35vw;
+    margin: 5px 0;
+}
+
+.ButtonsBlue .ButtonBlues {
+    background: #4E72CA;
+    border-radius: 23.5px;
+    height: 47px;
+    width: 222px;
+    border-radius: 23.5px;
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    transition: all 0.5s;
+    font-family: sans-serif;
+    cursor: pointer;
+    border: 1px solid #4E72CA;
+}
+
+.ButtonsBlue .ButtonBlues:hover {
+    border: 1px solid #4E72CA;
+    background: rgba(0, 0, 0, 0.0);
+    color: #4E72CA;
+    transition: all 0.5s;
+}
+
+.SingleCardTable table tr td {
+    padding: 25px;
+    border-bottom: 1px solid #97979740;
+    ;
+    border-left: 1px solid #97979740;
+    ;
+    margin-bottom: 1rem;
+    font-size: 14px;
+    line-height: 16px;
+    transition: all 0.5s;
+    font-family: sans-serif;
+}
+
+.SingleCardTable table tr td:hover {
+    transition: all 0.5s;
+    opacity: 0.4;
+}
+
+.SingleCardTable table tr td h5 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 15px 0 0 0;
+}
+
+.SingleCardTable {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0 125px;
+    margin-top: -7rem;
+}
+
+.TableBottomText {
+    height: 96px;
+    width: 536px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.00016833px;
+    text-decoration-line: underline;
+    color: #4E72CA;
+    float: right;
+    margin: 0 173px;
+    border-left: 1px solid #97979740;
+    padding: 4px 5px;
+}
+
+.AboutText p {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: -3.85217e-05px;
+    color: #414D6A;
+    width: 500px;
+    margin-left: 19rem;
+}
+.AboutText{
+    float: right;
+    width: 1010px;
+    margin: 25px 0;
+}
+
+.OverflowScroll{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7px;
+    overflow-x: hidden;
+    width: 85vw;
+    margin-left: 6rem;
+}
+.CardsApi::-webkit-scrollbar{
+    display: none;
+}
+.CardsApi .span{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 20rem;
+    font-family: sans-serif;
+    width: 100%;
+    border-bottom: 1px solid #D5D5D5;
+}
+.CardsApi .span h3{
+    transition: all 0.5s;
+    margin: 0 30px;
+    padding: 15px 0;
+    border-bottom: 3px solid #fff;
+    cursor: pointer;
+}
+.CardsApi .span h3:hover{
+    color: #2c64f0;
+    transition: all 0.5s;
+    border-bottom: 3px solid #2c64f0;
+    padding: 15px 0;
+}
+.CardsApi .span h3:focus{
+    color: #2c64f0;
+    transition: all 0.5s;
+}

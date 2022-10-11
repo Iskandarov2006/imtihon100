@@ -1,0 +1,145 @@
+#search {
+    width: 1140px;
+    height: 51px;
+    color: black;
+    outline: none;
+    padding: 0 70px;
+    border-radius: 8px;
+    border: 1px solid #9797977f;
+}
+
+#search::placeholder {
+    position: relative;
+    left: 5rem;
+}
+
+.fa-magnifying-glass {
+    position: relative;
+    left: 3rem;
+    font-size: 1.2rme;
+    color: #585757 !important;
+}
+
+.Inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.InputBottom {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 7px 85px;
+    margin: 15px 0;
+}
+
+.InputBottom div {
+    margin: 0 25px;
+}
+
+.inputbottom1 {
+    background: #E5E3FF;
+    border-radius: 3px;
+    color: #704FFF;
+    padding: 0 5px;
+    font-weight: 600;
+}
+
+.inputbottom2 {
+    background: #E4F6FF;
+    border-radius: 3px;
+    padding: 0 5px;
+    color: #57B4E2;
+    font-weight: 600;
+}
+
+.inputbottom3 {
+    background: #D2FFDB;
+    border-radius: 3px;
+    padding: 0 5px;
+    color: #47B95E;
+    font-weight: 600;
+}
+
+.inputbottom4 {
+    background: #F6DAC2;
+    border-radius: 3px;
+    padding: 0 5px;
+    color: #874C1A;
+    font-weight: 600;
+}
+
+.inputbottom5 {
+    background: #D8D8D8;
+    border-radius: 3px;
+    color: #787993;
+    padding: 0 5px;
+    font-weight: 600;
+}
+
+.inputbottom6 {
+    background: #D8D8D8;
+    border-radius: 3px;
+    padding: 0 5px;
+    font-weight: 600;
+    color: #787993;
+}
+
+.inputbottom7 {
+    background: #D8D8D8;
+    border-radius: 3px;
+    padding: 0 5px;
+    font-weight: 600;
+    color: #787993;
+}
+
+.clickselect {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+    border: 1px solid #9797977f;
+    border-radius: 27px;
+    padding: 7px 15px;
+}
+
+.clickselect div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.elektronika, .Monitor {
+    background: #EBF5FF;
+    border: 1px solid #B3D9FF;
+    border-radius: 20.5px;
+    padding: 0 0 0 25px;
+    font-size: 1.2rem !important;
+    margin: 0 15px 0 0;
+}
+
+.clickselect button{
+    border: 1px solid #787993;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin: 0 0 0 95px;
+}
+.selectedCard{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0 0 0 105px;
+}
+.InputRange{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0 0 0 105px;
+    margin: 25px 0;
+}
+.InputRange input{
+    margin: 0 0 0 55px;
+    width: 700px;
+}

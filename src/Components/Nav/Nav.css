@@ -1,0 +1,88 @@
+.HomeNav {
+    background: #FFFFFF;
+    padding: 2px;
+}
+
+.HomeNav .HomeNavUl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.HomeNav .HomeNavUl .logo img {
+    border-radius: 100%;
+    width: 67px;
+    height: 65px;
+}
+
+.HomeNav .HomeNavUl li {
+    list-style: none;
+}
+
+.HomeNav .HomeNavUl li a {
+    text-decoration: none;
+    margin: 0 25px;
+    color: #000000;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    font-family: sans-serif;
+}
+
+.HomeNav .HomeNavUl .LangueSignup a {
+    text-decoration: none;
+    margin: 0 35px;
+    color: #000000;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    font-family: sans-serif;
+}
+
+.HomeNav .HomeNavUl .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.HomeNav .HomeNavUl .logo h3 {
+    width: 172px;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 0 15px;
+}
+
+.LangueSignup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ModalBixod {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ModalBixod button {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 55px 0;
+    border: 1px solid white;
+    box-shadow: 0 0 15px white inset;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+.fa-window-close{
+    color: black;
+    cursor: pointer;
+    font-size: 2rem;
+}
+.ModalBixod form{
+    background: white;
+    padding: 5px 15px;
+    border-radius: 15px;
+}

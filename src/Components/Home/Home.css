@@ -1,0 +1,205 @@
+.card .CardImg img {
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.CardsBody {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 98vw;
+}
+
+.card {
+    width: 250px;
+    padding: 0 24px;
+    background-color: white;
+    margin: 15px;
+    border-radius: 8px;
+    transition: all 0.8s;
+    box-shadow: 0 0 10px white;
+}
+
+.pokazateshyo{
+    text-align: center;
+    margin: 55px 0;
+    cursor: pointer;
+}
+
+.card:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.card .CardBody {
+    font-family: sans-serif;
+}
+
+.card .CardBody h4 {
+    font-weight: 600;
+    list-style: 5px;
+    width: 220px;
+    font-size: 16px;
+    line-height: 19.41px;
+}
+
+.card .CardBody p {
+    height: 100px;
+    margin: 15px 0;
+    overflow-y: scroll;
+    color: #4A4A4A;
+    font-size: 14px;
+}
+
+.card .CardBody p::-webkit-scrollbar {
+    display: none;
+}
+
+.Narxi {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.Cards .CardsHeader {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0 25px;
+    font-family: sans-serif;
+}
+
+.Cards .CardsHeader h3:nth-child(2) {
+    margin: 0 55px;
+    color: #9B9B9B;
+}
+
+.active {
+    color: #4E72CA !important;
+    border-bottom: 3px solid #4E72CA;
+    padding: 10px 0;
+}
+
+.CategoryCardsLink {
+    text-decoration: none;
+    color: black;
+}
+
+.imgCategory img {
+    width: 70px;
+    border-radius: 17px;
+    margin: 0 25px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.imgCategory img:hover {
+    width: 70px;
+    border-radius: 17px;
+    margin: 0 25px;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.5s;
+}
+
+.Categorys {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    margin: 25px 0;
+}
+
+.IconsLeftRight {
+    width: 40px;
+    height: 40px;
+    box-shadow: 1px 3px 6px 0px #00000021;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    color: blueviolet;
+    font-size: 1.5rem;
+}
+
+.Caruselimg .ImgsCarusel img {
+    border-radius: 18px;
+    transform: scale(1.2);
+    max-width: 300px;
+    max-height: 150px;
+    margin: 35px 55px;
+}
+
+.Caruselimg .ImgsCarusel {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    overflow: scroll;
+    position: relative;
+    width: 98vw;
+}
+
+.Caruselimg .ImgsCarusel::-webkit-scrollbar {
+    display: none;
+}
+
+.FooterCards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 98vw;
+    overflow-x: scroll;
+}
+
+.FooterCards::-webkit-scrollbar {
+    width: 15px;
+    height: 5px;
+}
+.FooterCards::-webkit-scrollbar-track{
+    width: 15px;
+    height: 5px;
+    background: #F2F2F2;
+}
+
+.FooterCardHeader {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 99vw;
+    border-bottom: 1px solid #9B9B9B;
+    padding: 15px 0;
+}
+
+.FooterCardHeader a {
+    text-decoration: none;
+    color: #9B9B9B;
+    margin-left: 25px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.FooterCardHeader a:focus {
+    color: #4E72CA;
+}
+
+.KiviPlayMarketAppStore {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 35px;
+}
+
+.KiviFooter img {
+    height: 67px;
+    width: 67px;
+    border-radius: 100%;
+}
+.PlayApp img{
+    width: 350px;
+    border-radius: 19px;
+}

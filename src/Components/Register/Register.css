@@ -1,0 +1,206 @@
+.headernav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 25px;
+    background: white;
+    box-shadow: 12px 4px 0 0px #00000011;
+}
+
+.selects {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60vw;
+    border: 1px solid rgb(131, 117, 117);
+    padding: 0 0 0 25px;
+    border-radius: 25px;
+}
+
+.FourSelect button {
+    border-radius: 25px;
+    position: relative;
+    padding: 12px 15px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    background: #19D476;
+    border: 1px solid #19D476;
+}
+
+select {
+    border: none;
+    font-weight: 500;
+    background: rgba(0, 0, 0, 0.0);
+    outline: none;
+}
+
+.TwoSelected h1 {
+    font-size: 1rem;
+    margin: 0 95px 0 0;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.ButtonNav button {
+    width: 230px;
+    height: 40px;
+    border-radius: 27px;
+    border: none;
+    background: #19D476;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 600;
+    padding: 0 5px 0 0;
+    border: 1px solid #19D476;
+}
+
+.ButtonNav button div {
+    background: #11B463;
+    width: 39px;
+    height: 39px;
+    border-radius: 27px;
+    margin-left: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+}
+
+button {
+    cursor: pointer;
+    transition: all 0.5s;
+
+}
+
+.headernav button:hover {
+    background: rgba(0, 0, 0, 0.0);
+    border: 1px solid #11B463;
+    color: black;
+    transition: all 0.5s;
+}
+
+/* Header ==================================================================================== */
+
+
+.HeaderRegister {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 0 85px;
+}
+
+.rightHeader img {
+    width: 40vw;
+    height: 100vh;
+    margin-top: -17rem;
+}
+
+.leftHeader h1 {
+    font-family: sans-serif;
+}
+
+.leftHeader a p {
+    width: 400px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.leftHeader a {
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.leftHeader .Form form input {
+    display: block;
+    height: 52px;
+    width: 329px;
+    left: 0px;
+    top: 28px;
+    border-radius: 5px;
+    border: 1px solid #C7C7C7;
+    padding: 0 25px;
+    background: rgba(0, 0, 0, 0.0);
+    margin: 15px 0;
+    outline: none;
+}
+
+.leftHeader .Form form input ::placeholder {
+    color: #C7C7C7;
+}
+
+.leftHeader .Form form label {
+    color: #beb8b8;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+}
+
+.leftHeader .Form form button {
+    background: #41D481;
+    border-radius: 5px;
+    border: 1px solid #41D481;
+    height: 62px;
+    width: 329px;
+    left: 2px;
+    top: 0px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.leftHeader .Form form button:hover {
+    background: rgba(0, 0, 0, 0.0);
+    border-radius: 5px;
+    border: 1px solid #41D481;
+    height: 62px;
+    width: 329px;
+    left: 2px;
+    top: 0px;
+    border-radius: 5px;
+    color: #41D481;
+    font-size: 1.2rem;
+}
+
+.leftHeader .Form {
+    margin: 50px 0;
+}
+
+.UserName {
+    width: 40px;
+    height: 40px;
+    display: block;
+    background-color: green;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+.Message {
+    border-top-right-radius: 100%;
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 2rem;
+    background: white;
+    height: 275px;
+    width: 275px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 20rem;
+    left: 6rem;
+}
+.Message img{
+    /* color: #19D476; */
+    width: 170px;
+    height: 170px;
+    position: relative;
+    top: 8rem;
+}

@@ -1,0 +1,213 @@
+.NameAndPopolnit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 55px;
+}
+
+.NameAndPopolnit .NameZukhriddin {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    margin-top: 7px;
+    line-height: 21px;
+    text-align: center;
+    color: #414D6A;
+}
+
+.NameAndPopolnit .popolnit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.NameAndPopolnit .popolnit h6 {
+    margin-top: 15px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    color: #304FFF;
+}
+
+.NameAndPopolnit .popolnit button {
+    background: #FFFFFF;
+    border: 1px solid #41D481;
+    border-top-right-radius: 55px;
+    border-bottom-right-radius: 55px;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+    margin: 10px 0 0 25px;
+    height: 37px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.NameAndPopolnit .popolnit button:hover {
+    background: #41D481;
+    color: white;
+    border-radius: 100px;
+}
+
+.NameAndPopolnit .popolnit button span {
+    background: #41D481;
+    border-radius: 100%;
+    width: 34px;
+    font-size: 20px;
+    height: 35px;
+    margin: 0 20px 0 0;
+}
+
+.SingleNav div {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0 0 0 55px;
+}
+
+.SingleNav div a {
+    margin: 0 55px 0 0;
+    text-decoration: none;
+    color: #414D6A;
+    font-weight: 600;
+}
+
+.SingleNav div a:focus {
+    color: #304FFF;
+}
+
+.SingleNav {
+    margin: 30px 0;
+}
+
+.TableNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 55px;
+}
+
+.TableNav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.TableHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 55px;
+}
+
+.TableHeader h4 {
+    font-size: 1rem;
+    color: #414D6A !important;
+}
+
+.bgWhitesmoke {
+    background: #0000000c;
+    ;
+    height: 150vh;
+}
+
+.TableHeader .buttons button:nth-child(1) {
+    border: 1px solid #41D481;
+    padding: 0 25px 0 0;
+    background: white;
+    height: 37px;
+    width: 149px;
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+    border-top-left-radius: 15rem;
+    border-bottom-left-radius: 15rem;
+    border-bottom-right-radius: 5rem;
+    border-top-right-radius: 5rem;
+    font-weight: 700;
+}
+
+.TableHeader .buttons button:nth-child(2) {
+    border: 1px solid #304FFF;
+    padding: 0 25px 0 0;
+    background: white;
+    height: 37px;
+    width: 169px;
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+    border-top-left-radius: 15rem;
+    border-bottom-left-radius: 15rem;
+    border-bottom-right-radius: 5rem;
+    border-top-right-radius: 5rem;
+    font-weight: 700;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ArrowUpIcon {
+    width: 37px;
+    margin: 0 5px 0 0;
+    padding: 0 17px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #414D6A;
+    border-radius: 100%;
+}
+
+.ArrowUpIcon1 {
+    background: #41d481;
+}
+
+.ArrowUpIcon2 {
+    background: #304fff;
+}
+
+.TableBody {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0 0 0 25px;
+}
+
+.TableAdmin {
+    margin: 15px 25px;
+    background: white;
+    padding: 15px 5px;
+    border-radius: 8px;
+}
+
+.TableBody span {
+    margin: 0 45px 0 0;
+}
+
+.KiviAdminPanel {
+    background: #282B30;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    padding: 20px 0;
+    position: relative;
+    top: 2.5rem
+}
+
+.KiviAdminPanel .textKiviImg p {
+    width: 307px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #98A4B7;
+}
